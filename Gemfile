@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Recordg
 group :production do
-	gem ‘pg’
-	gem ‘rails_12factor’
+	gem 'pg'
+	gem 'rails_12factor'
 end
 
 group :development do
@@ -49,4 +49,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
